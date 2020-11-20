@@ -68,22 +68,27 @@ $ sudo add-apt-repository ppa:deadsnakes/ppa
 
 ### Installing tensorflow-gpu
 Following command can be used to install tensorflow-gpu. Tensorflow version 1.2 + is used in this project.
+
 	$ conda install tensorflow-gpu
 
 ### Installing numpy
 Following command is used for installing numpy. Numpy version 1.13.3 is used in this project.
+
 $ conda install numpy==1.13.3
 
 ### Installing scipy
 Following command is used for installing scipy. Scipy version 0.19.0 is used in this project.
+
 	$ conda install scipy==0.19.0
 
 ### Installing matplotlib
 Following command is used for installing matplotlib. Matplotlib version 2.0.2 is used in this project.
+
 $ conda install matplotlib==2.0.2
 
 ### Installing scikit-image
 Following command is used for installing scikit-image. Scikit-image version 0.13.0 is used in this project.
+
 	$ conda install scikit-image==0.13.0
 
 
