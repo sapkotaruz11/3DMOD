@@ -1,5 +1,6 @@
 # 3DMOD
 Creating 3D Model from 2D Images using Convolution Neural Network 
+
 This repository contains the source codes for the paper, "Creating 3D Model from 2D Images using Convolution Neural Network". Using a set of 2D images taken from multiple viewpoints, the features of the object is extracted using CNN from which 3D overview of the object is determined with the help of machine learning. 
 
 Project Paper
@@ -85,25 +86,7 @@ Installing scikit-image
 Following command is used for installing scikit-image. Scikit-image version 0.13.0 is used in this project.
 	$ conda install scikit-image==0.13.0
 
-Training the model
 
-
-Prediction of 3D model
-
-
-
-Sample Inputs and Outputs
-
-Case I: Chair
-Input Images:
-
-
-Predictions:
-
-Case 2:
-Input Images
-
-Prediction
 
 
 
