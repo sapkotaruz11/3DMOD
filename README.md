@@ -30,11 +30,17 @@ http://cvgl.stanford.edu/data2/ShapeNetRendering.tgz
 ## Requirements
 
 python 3.5
+
 tensorflow 1.2 +
+
 numpy 1.13.3
+
 scipy 0.19.0
+
 matplotlib 2.0.2
+
 skimage 0.13.0
+
 
 ### Installation of requirements
 
