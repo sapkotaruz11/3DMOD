@@ -32,9 +32,9 @@ def load_shapenet_rgbs(test_mv=3):
     return x_sample, y_true
 
 def ttest_demo():
-    model_path = './Model_released/'
+    model_path = './Trained_Model/'
     if not os.path.isfile(model_path + 'model.cptk.data-00000-of-00001'):
-        print ('please download our released model first!')
+        print ('please train the model first')
         return
 
     config = tf.ConfigProto(allow_soft_placement=True)
