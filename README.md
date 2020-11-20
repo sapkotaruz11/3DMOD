@@ -1,9 +1,9 @@
 # 3DMOD
-#Creating 3D Model from 2D Images using Convolution Neural Network 
+# Creating 3D Model from 2D Images using Convolution Neural Network 
 
 This repository contains the source codes for the paper, "Creating 3D Model from 2D Images using Convolution Neural Network". Using a set of 2D images taken from multiple viewpoints, the features of the object is extracted using CNN from which 3D overview of the object is determined with the help of machine learning. 
 
-##Project Paper
+## Project Paper
 The project page is available at
 https://drive.google.com/file/d/1-dRAiLNx0RLuJMAm37ykCeUoCk2faFu5/view?usp=sharing 
 
@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1-dRAiLNx0RLuJMAm37ykCeUoCk2faFu5/view?usp=shari
 The project report is available at
 https://drive.google.com/file/d/10SVNYYOe3Uhh_klmy-ZYYbxh0_fzQWC4/view?usp=sharing
 
-##Overview
+## Overview
 
 Main objective of this project was to create a 3D model from 2D input images using Convolutional neural networks. Using a set of 2D images taken from multiple viewpoint the features of the object is extracted using CNN from which 3D overview of the object is determined with the help of machine lerning. The main reason of using CNN is its ability of Feature Learning.
 
@@ -22,12 +22,12 @@ The use of 3D model has been increasing exponentially in the fields of manufactu
 Though the use of 3D models have been convenient, developing it is still a huge challenge. With this project we aim to make the development of 3D models easier and more effective which can be used primarily in visual imagery and other related fields.
 
 
-##Datasets
+## Datasets
 For training, we used ShapeNet data set which is a gathering of 3D CAD models that are arranged according to the WorldNet hierarchy. We only used subset of the ShapeNet dataset which contains 50000 models and 13 major categories. We split the dataset into 4:1 ratio for training/testing data.
 ShapeNet rendered images:
 http://cvgl.stanford.edu/data2/ShapeNetRendering.tgz
 
-##Requirements
+## Requirements
 
 python 3.5
 tensorflow 1.2 +
@@ -36,9 +36,9 @@ scipy 0.19.0
 matplotlib 2.0.2
 skimage 0.13.0
 
-###Installation of requirements
+### Installation of requirements
 
-###Installing Conda
+### Installing Conda
 Following steps have to be followed to install conda and create its virtual environment.
 1. Download most recent version of Anaconda from
 https://www.anaconda.com/download/
@@ -56,7 +56,7 @@ https://www.anaconda.com/download/
 7. Activate new enxironment using
 	$ conda activate 2Dto3D
 
-###Installing Python
+### Installing Python
 Following steps have to be followed to install python in Ubuntu. Python 3.5 version is used in this project.
 1. Update packages list
 	$ sudo apt update
@@ -66,23 +66,23 @@ $ sudo add-apt-repository ppa:deadsnakes/ppa
 3. Install python using
 	$ sudo apt install python==3.5
 
-###Installing tensorflow-gpu
+### Installing tensorflow-gpu
 Following command can be used to install tensorflow-gpu. Tensorflow version 1.2 + is used in this project.
 	$ conda install tensorflow-gpu
 
-###Installing numpy
+### Installing numpy
 Following command is used for installing numpy. Numpy version 1.13.3 is used in this project.
 $ conda install numpy==1.13.3
 
-###Installing scipy
+### Installing scipy
 Following command is used for installing scipy. Scipy version 0.19.0 is used in this project.
 	$ conda install scipy==0.19.0
 
-###Installing matplotlib
+### Installing matplotlib
 Following command is used for installing matplotlib. Matplotlib version 2.0.2 is used in this project.
 $ conda install matplotlib==2.0.2
 
-###Installing scikit-image
+### Installing scikit-image
 Following command is used for installing scikit-image. Scikit-image version 0.13.0 is used in this project.
 	$ conda install scikit-image==0.13.0
 
