@@ -224,7 +224,7 @@ class Network:
 
 		#######################
 		path = self.train_mod_dir
-		#path = './Model_released/'  # retrain the released model
+		#path = './Trained_Model/'  # retrain the trained model
 		if os.path.isfile(path + 'model.cptk.data-00000-of-00001'):
 			print ("restoring saved model!")
 			self.saver.restore(self.sess, path + 'model.cptk')
