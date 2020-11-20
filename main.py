@@ -17,7 +17,7 @@ re_train=False
 single_view_train = False
 multi_view_train = False
 
-#####################################
+######################################
 config={}
 config['batch_size'] = batch_size
 config['total_mv'] = total_mv
